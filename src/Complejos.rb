@@ -15,6 +15,7 @@ class Complejo
   end
 
  def sum (num)
+	Complejo.new(@real + num.real, @imaginary + num.imaginary)
  end
 
  def subtract (num)
