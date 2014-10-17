@@ -19,6 +19,7 @@ class Complejo
  end
 
  def subtract (num)
+	 Complejo.new(@real - num.real, @imaginary - num.imaginary)
  end
 
  def product (num)
