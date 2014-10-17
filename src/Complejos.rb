@@ -27,5 +27,8 @@ Complejo.new(@real * num.real + @imaginary * num.imaginary, @real * num.imaginar
  end
 
  def division (num)
+	 realPart = (@real * num.real + @imaginary * num.imaginary) / (num.real**2 + num.imaginary**2)
+    imaginaryPart = (@imaginary * num.real - @real * num.imaginary) / (num.real**2 + num.imaginary**2)
+    Complejo.new(realPart,imaginaryPart)
  end
  end
