@@ -5,4 +5,24 @@ class Complejo
   def initialize(real, imaginary)
     @real, @imaginary = real, imaginary
   end
+  
+  def to_s
+    if @imaginary < 0
+      "#{@real} #{@imaginary}i"
+    else
+      "#{@real} + #{@imaginary}i"
+    end
+  end
+
+ def sum (num)
+ end
+
+ def subtract (num)
+ end
+
+ def product (num)
+ end
+
+ def division (num)
+ end
  end
