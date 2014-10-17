@@ -23,6 +23,7 @@ class Complejo
  end
 
  def product (num)
+Complejo.new(@real * num.real + @imaginary * num.imaginary, @real * num.imaginary + @imaginary * num.real)
  end
 
  def division (num)
